@@ -3,7 +3,7 @@ const url = "https://api.adviceslip.com/advice";
 /* Envoi de la requête HTTP GET pour récupérer les données de l'API via "fetch" */
 fetch(url)
 
-/* Convertir les données de la réponse en un objet JSON  */
+/* Formatage des données de la réponse en un objet JSON  */
 .then(response => response.json())
 
 /* Affichage d'un conseil aléatoir dans la page HTML */
